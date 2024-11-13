@@ -13,8 +13,8 @@
         - Node.js (Angular requires an active LTS or maintenance LTS version of Node.js) - https://nodejs.org/en,
         - npm package manager - https://docs.npmjs.com/cli/v10/commands/npm-install,
     
-    - npm install -g @angular/cli@17,
+    - Open git bash or CMD and run command 'npm install -g @angular/cli@17',
     - cd /UI-Chatbot/chatbot,
     - run command 'npm install' for installing packages from the npm registry,
-    - ng serve,
+    - run command 'ng serve'. Compiles and serves the application,
     - Navigate to `http://localhost:4200/`.
