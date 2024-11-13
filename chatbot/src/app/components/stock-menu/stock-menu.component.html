@@ -1,0 +1,11 @@
+<div class="container">
+  <div>
+    <ul class="stockExchanges">
+      <div class="select"><b>Please select a Stock</b></div>
+      <li *ngFor="let botData of stockData?.topStocks" (click)="getValueExchange(botData)">
+          <span>{{botData.stockName}}</span>
+      </li>
+    </ul>
+  </div>
+  <button (click)="redirectToHome()">Main menu</button>
+</div>

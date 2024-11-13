@@ -1,0 +1,12 @@
+.container{
+    margin-top: 250px;
+    .message {
+        font-size: 120px;
+        color: rgb(255, 0, 0);
+        text-align: center;
+        .status{
+            font-size: 20px;
+            color: #000000
+        }
+    }
+}

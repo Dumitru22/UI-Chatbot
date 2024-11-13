@@ -1,0 +1,16 @@
+<ng-container *ngIf="!errorStatus else loadErrorPage">
+  <div class="container">
+    <div>
+      <ul class="stockExchanges">
+        <div class="select"><b>Please select a Stock Exchange</b></div>
+        <li (click)="getStockExchange(botData)" *ngFor="let botData of chatBotDatas">
+            <span>{{botData.stockExchange}}</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</ng-container>
+
+<ng-template #loadErrorPage>
+  <app-error-page [errorStatus]="errorStatus"></app-error-page>
+</ng-template>

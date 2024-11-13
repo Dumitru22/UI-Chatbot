@@ -1,0 +1,40 @@
+.container{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    .title{
+        background-color: #ecf5fd;
+        padding: 10px;
+    }
+    .stockExchanges{
+        .select{
+            padding: 10px;
+        }
+        background: #ecf5fd;
+        padding: 5px;
+        li {
+            background: white;
+            border: 1px #ecf5fd solid;
+            list-style: none;
+            padding: 10px;
+            text-align: center;
+            cursor: pointer;
+            &:hover{
+                background-color: #ecf5fd;
+                border: 1px #001eff solid;
+            }
+        }
+    }
+button {
+    width: 20%;
+    background: #ecf5fd;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    &:hover{
+        border: 1px #001eff solid;
+    }
+}
+}
